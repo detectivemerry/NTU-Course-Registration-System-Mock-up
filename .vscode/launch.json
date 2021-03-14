@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - STARS",
+            "request": "launch",
+            "mainClass": "STARS",
+            "projectName": "CZ2002_c4df975c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NotificationEmail",
+            "request": "launch",
+            "mainClass": "API.NotificationEmail",
+            "projectName": "CZ2002_6cfe4167"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-STARS<CZ2002_6cfe4167>",
+            "request": "launch",
+            "mainClass": "STARS",
+            "projectName": "CZ2002_6cfe4167"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SendMailTLS<CZ2002_6cfe4167>",
+            "request": "launch",
+            "mainClass": "javamail.SendMailTLS",
+            "projectName": "CZ2002_6cfe4167"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testPrint<CZ2002_6cfe4167>",
+            "request": "launch",
+            "mainClass": "testPrint",
+            "projectName": "CZ2002_6cfe4167"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testUIApp<CZ2002_6cfe4167>",
+            "request": "launch",
+            "mainClass": "testUIApp",
+            "projectName": "CZ2002_6cfe4167"
+        }
+    ]
+}
